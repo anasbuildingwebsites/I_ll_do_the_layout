@@ -29,13 +29,19 @@ h1 {
 main img {
     width: 250px;
     height: 250px;
+    margin-top: 15px;
 }
 
-.description, .prices {
+.description, .prices, .text_price {
     text-decoration: none;
     background-color: #E8695E;
     color: #FFF4F0;
     width: 50%;
     padding: 10px 15px 10px 15px;
     border-radius: 15px;
+    text-align: center;
+}
+
+.sections {
+    border-top: 5px solid #DA5D46;
 }
